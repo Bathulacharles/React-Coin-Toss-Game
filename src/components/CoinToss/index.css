@@ -1,0 +1,98 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+}
+
+.coin-toss-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 50%;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+@media screen and(min-width: 768px) {
+  .game-container {
+    max-width: 500px;
+    padding: 64px;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #a35200;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #334155;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+
+.toss-image {
+  height: 170px;
+}
+
+.button {
+  color: #a35200;
+  background-color: #f9d423;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: 700;
+  padding: 10px;
+  margin-top: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.counts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .counts-container {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .counts-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 32px;
+  }
+}
+
+.count {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #475569;
+  margin: 25px;
+}
